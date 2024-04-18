@@ -4,6 +4,4 @@
 
 def inherits_from(obj, a_class):
     '''Determines if an object is a true subclass of a class.'''
-
-
-return isinstance(obj, a_class) and not isinstance(obj,     return isinstance(obj, a_class) and )
+    return isinstance(obj, a_class) and not type(obj) is a_class
