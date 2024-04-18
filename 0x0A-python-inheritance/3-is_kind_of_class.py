@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-'''Module for is_same_class method.'''
+'''Module for is_kind_of_class method.'''
 
 
-def is_same_class(obj, a_class):
-    '''Determines if an object is exactly an instance of a class.'''
+def is_kind_of_class(obj, a_class):
+    '''Determines if an object is a subclass of a class.'''
     return isinstance(obj, a_class)
